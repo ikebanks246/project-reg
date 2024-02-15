@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css class</title>
+    <style>
+ 
+ .container{
+    width: 800px;
+    margin: 2rem auto;
+    border: 2px solid brown;
+    grid-template-columns: repeat(3, 1fr); */
+    gap:10 px;
+    height: 80
+    vh;
+    display : grid;
+      flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    justify-content: space-between;
+    
+    
+
+
+
+ }
+ .box{
+    width: 250px;
+    height: 200px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+ }
+ .circle{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    
+ }
+.circle>i{
+    color: black;
+}.box:hover{
+    background-color: aqua;
+    cursor: pointer;
+
+}
+.box:first-child{
+    background-color: black;
+
+}
+.box:last-child{
+    background-color: blueviolet;
+}
+.box:nth-child(odd) {
+    background-color: darkmagenta;
+    color: beige;
+}
+.small{
+background-color: darkgrey;
+border: 10px;
+border-radius: 30px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+   
+
+    
+
+<div class="container">
+    <div class="box">
+        <h1>M</h1>
+    </div>
+    <div class="box">
+        <div class="circle">
+            <h1>M</h1>
+        </div>
+
+    </div>
+        <div class="box">
+    <h1>M</h1>
+        </div>
+        <div class="box">
+    <h1>M</h1>
+        </div>
+        <div class="box">
+    <h1>B</h1>
+        </div>
+        <div class="box">
+    <h1>A</h1>
+        </div>
+        
+        <div class="box">
+    <h1>A</h1>
+        </div>
+        
+        <div class="box">
+    <div class="small">
+
+    </div>
+        </div>
+        
+        <div class="box">
+    <h1>A</h1>
+        </div>
+        
+
+    
+        
+        
+
+
+    
+    
+
+</div>
+</body>
+</html>

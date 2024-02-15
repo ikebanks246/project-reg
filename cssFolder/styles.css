@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(61, 57, 57);
+}
+#container{
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 2rem auto;
+}
+.box{
+    background-color: darkgrey;
+    border-radius: 20px;
+    height: 25vh;
+    color: aqua;
+    padding: .2rem .4rem;
+}
+.box>i{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    padding: 2px;
+    float: right;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    background-color: rgb(115, 255, 0);
+    width: 100px;
+    margin: .6rem auto;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.footerIcons>i{
+    background-color: black;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        padding: 2px;
+        float: right;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+}
+.footerIcons>i:first-child{
+    background-color: rgb(237, 60, 60);
+}
+.footerIcons>i:last-child {
+    background-color: rgb(237, 60, 60);
+}
+.footerIcons>i:nth-child(2){
+    background-color: rgb(237, 60, 60);
+}
+.rigthFooterIcons>{
+    display: flex;
+    gap: 7px
+}
+.rigthFooterIcons>i{
+font-size: 13px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
